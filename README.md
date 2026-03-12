@@ -1,6 +1,6 @@
 
 
-## 1 Problem Statement
+##  Problem Statement
 Libraries often face difficulty in managing book records manually. Tracking which books are available, issued, or returned can become time-consuming and prone to errors when handled without a proper system.
 
 This project aims to develop a simple Python-based Library Management System that helps manage library operations efficiently. The system allows users to add new books, issue books, return books, and view the list of available books, making basic library management easier and more organized.
@@ -42,7 +42,9 @@ This project aims to develop a simple Python-based Library Management System tha
   - View all books
 
 ## Example
+
 Library Menu:
+
     Enter 1 to view all the books
     Enter 2 to add a new book
     Enter 3 to return a book
@@ -60,15 +62,16 @@ Library Menu:
 
 ## Project Structure
 
+```text
 Library-Management-System/
 │
-├── MAIN.py             # Main program
-├── ADD.py              # Adds new book
-├── ISSUE.py            # Issues book
-├── LIB_MANAGE.py       # manages the constructor
-├── RETURN.py           # Returns the book 
-└── README.md           # This file  
-
+├── main.py # Main program (menu-driven interface)
+├── add.py # Handles adding new books
+├── issue.py # Handles issuing books
+├── return.py # Handles returning books
+├── lib_manage.py # Manages library data/constructor
+└── README.md # This file
+```
 
 ## Future Improvements
 
